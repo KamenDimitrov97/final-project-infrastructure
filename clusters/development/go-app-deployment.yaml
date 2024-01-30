@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: go-app-container
-          image: docker.io/stroming/final-project-telerik:latest
+          image: docker.io/stroming/final-project-telerik:latest # {"$imagepolicy": "flux-system:go-app"}
           imagePullPolicy: Always
           ports:
             - name: http
