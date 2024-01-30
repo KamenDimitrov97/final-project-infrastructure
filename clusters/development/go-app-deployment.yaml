@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,7 +14,7 @@ spec:
     spec:
       containers:
         - name: go-app-container
-          image: docker.io/stroming/final-project-telerik:latest # {"$imagepolicy": "flux-system:go-app"}
+          image: docker.io/stroming/final-project-telerik:master-d991358c7fc35f6999e802e478a95fb8bb89c10a # {"$imagepolicy": "flux-system:go-app"}
           imagePullPolicy: Always
           ports:
             - name: http
