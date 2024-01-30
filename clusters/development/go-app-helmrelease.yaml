@@ -1,4 +1,3 @@
----
 apiVersion: helm.toolkit.fluxcd.io/v2beta2
 kind: HelmRelease
 metadata:
@@ -17,4 +16,4 @@ spec:
       valuesFiles:
         - values.yaml
   values:
-    image: docker.io/stroming/final-project-telerik:latest # {"$imagepolicy": "flux-system:go-app"}
+    image: docker.io/stroming/final-project-telerik:master-d991358c7fc35f6999e802e478a95fb8bb89c10a # {"$imagepolicy": "flux-system:go-app"}
