@@ -7,7 +7,7 @@ metadata:
 spec:
   filterTags:
     extract: ""
-    pattern: ^master-[a-f0-9]{40}$
+    pattern: ^master-[a-f0-9]{10}$
   imageRepositoryRef:
     name: go-app
   policy:

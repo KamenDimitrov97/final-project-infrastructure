@@ -17,4 +17,4 @@ spec:
       valuesFiles:
         - values.yaml
   values:
-    image: docker.io/stroming/final-project-telerik:latest # {"$imagepolicy": "flux-system:go-app"}
+    image: docker.io/stroming/final-project-telerik:latest # {"$imagepolicy": "flux-system-prod:go-app"}
