@@ -4,7 +4,7 @@ metadata:
   name: go-app
   namespace: telerik
 spec:
-  interval: 5m
+  interval: 1m0s
   chart:
     spec:
       chart: ./.deployment/go-app-chart

@@ -6,4 +6,4 @@ metadata:
   namespace: flux-system
 spec:
   image: docker.io/stroming/final-project-telerik
-  interval: 5m0s
+  interval: 1m
